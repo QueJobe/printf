@@ -20,4 +20,6 @@ int p_percent(va_list);
 int print_number(va_list);
 int p_integer(va_list);
 void _vprintf(const char *format, va_list args);
+int unsigned_integer(va_list args);
+int print_unsgined_number(unsigned int n);
 #endif
