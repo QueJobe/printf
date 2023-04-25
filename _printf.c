@@ -30,4 +30,6 @@ int _printf(const char *format, ...)
 	chars_printed = funct_print(format, funct_list, args);
 
 	va_end(args);
+
 	return (chars_printed);
+}

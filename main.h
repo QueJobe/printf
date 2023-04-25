@@ -13,7 +13,7 @@ typedef struct specif{
 
 int _putchar(char c);
 int _printf(const char *format, ...);
-int funct_print(const char *format, cnver_specif funct_list[], va_list args);
+int funct_print(const char *format, cver_specif funct_list[], va_list args);
 int p_char(va_list);
 int p_string(va_list args);
 int p_percent(va_list);

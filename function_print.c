@@ -14,7 +14,7 @@ int funct_print(const char *format, cver_specif funct_list[], va_list args)
 	int i, j, n;
 	int printed_chars = 0;
 
-	for (i = 0; format[i] != '\0', i++)
+	for (i = 0; format[i] != '\0'; i++)
 	{
 		if (format[i] == '%')
 		{
@@ -29,7 +29,7 @@ int funct_print(const char *format, cver_specif funct_list[], va_list args)
 					break;
 				}
 			}
-			if (funct_list[j].sym == NULL && format[i + 1] != '')
+			if (funct_list[j].sym == NULL && format[i + 1] !=' ')
 			{
 				if (format[i + 1] != '\0')
 				{
